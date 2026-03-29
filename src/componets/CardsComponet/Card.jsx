@@ -6,6 +6,7 @@ const Card = ({card}) => {
     return (
        
       <div>
+         
                 <div className="card bg-[#ededed] w-96 h-full">
           <div className="bg-gray-200 rounded-2xl py-4">
             <figure className="object-contain max-w-6/12 flex justify-center mx-auto">
@@ -22,9 +23,13 @@ const Card = ({card}) => {
               >
                 {subscribe ? "Subscribed" : "Subscribe Now"}
               </button>
+              
             </div>
+            
           </div>
+          
         </div>
+        
       </div> 
        
     );
