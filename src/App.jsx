@@ -4,6 +4,7 @@ import Banner from './componets/Banner';
 import Footer from './componets/Footer';
 import BottunToggle from './componets/BottunToggle'
 import Cards from './componets/CardsComponet/Cards';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
      <Navbar/>
      <Banner/>
      < BottunToggle/>
+     <ToastContainer/>
      <Cards promise ={promise}/>
      <Footer/>
     </div>
